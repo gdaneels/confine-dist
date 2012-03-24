@@ -18,10 +18,10 @@
 
 ifndef READ_ONLY
 OWRT_GIT = git@github.com:confine-project/openwrt.git
-OWRT_PKG_GIT = git@github.com:confine-project/packages.git
+OWRT_PKG_GIT = git@github.com:gdaneels/packages.git
 else
 OWRT_GIT = git://github.com/confine-project/openwrt.git
-OWRT_PKG_GIT = git://github.com/confine-project/packages.git
+OWRT_PKG_GIT = git://github.com/gdaneels/packages.git
 endif
 
 TIMESTAMP = $(shell date +%d%m%y_%H%M)
