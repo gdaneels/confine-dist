@@ -1,1 +1,1 @@
-echo $hostname > /prox/sys/kernel/hostname
+echo $hostname > /proc/sys/kernel/hostname
